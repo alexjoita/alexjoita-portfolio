@@ -1,6 +1,13 @@
 @import "/src/styles/extend";
 
 .info-grid-item {
+    @include media-breakpoint-up($sidebar-min-breakpoint) {
+        &:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--theme-box-shadow-hover);
+        }
+    }
+
     .card-body {
         display: flex;
         width: 100%;
@@ -10,6 +17,7 @@
     .circle-avatar {
         border-color: var(--theme-soft-3);
         background-color: var(--theme-tag-color);
+        transition: transform $transition-spring;
         @include media-breakpoint-down(md) {
             border-width: 4px;
         }

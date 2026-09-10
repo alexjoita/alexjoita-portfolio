@@ -5,6 +5,7 @@
     width: 100%;
     align-items: center;
     border-right: 4px solid transparent;
+    transition: background-color $transition-base, border-color $transition-base;
 
     height: 50px;
     @media (max-height: 725px) { height: 45px; }
@@ -18,12 +19,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: scale 0.1s ease-out;
+            transition: scale $transition-spring, opacity $transition-fast;
         }
 
         img {
             border: 2px solid rgba(black, 0.05);
             border-radius: 100%;
+            transition: transform $transition-spring;
         }
 
         .fa-icon {
@@ -59,6 +61,7 @@
         font-weight: bold;
         margin-top: 1px;
         opacity: 0.75;
+        transition: opacity $transition-fast, transform $transition-base;
     }
 
     .fa-icon {
@@ -69,14 +72,16 @@
 .menu-item-with-hover {
     &:hover {
         color: var(--theme-highlight);
+        background-color: var(--theme-nav-light);
 
         .fa-icon, img {
-            scale: 1.1;
+            scale: 1.15;
             opacity: 1;
         }
 
         span.menu-item-label {
             opacity: 1;
+            transform: translateX(2px);
         }
     }
 }
@@ -99,6 +104,9 @@
         color: var(--theme-nav-highlight)!important;
         .fa-icon, img {
             scale: 1;
+        }
+        span.menu-item-label {
+            transform: none;
         }
     }
 }

@@ -15,6 +15,17 @@
     margin-top: 30px;
     height: calc(100% - 30px);
 
+    @include media-breakpoint-up($sidebar-min-breakpoint) {
+        &:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--theme-box-shadow-hover);
+
+            .circle-avatar {
+                transform: scale(1.06);
+            }
+        }
+    }
+
     .card-body {
         display: flex;
         flex-direction: column;
@@ -26,6 +37,7 @@
         position: absolute;
         top: -20px;
         right: -6px;
+        transition: transform $transition-spring;
         @include media-breakpoint-down(md) {
             top: -15px;
             right: -2px;

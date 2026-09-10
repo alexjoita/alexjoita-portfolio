@@ -7,7 +7,7 @@ button.tool-button {
     align-items: center;
     justify-content: center;
     outline: none;
-    transition: none;
+    transition: background-color $transition-fast, border-color $transition-fast, transform $transition-fast, box-shadow $transition-fast;
 
     .tool-button-content {
         pointer-events: none;
@@ -20,17 +20,23 @@ button.tool-button {
     box-shadow: var(--theme-box-shadow);
 
     .fa-icon {
-        transition: scale 0.1s ease-out;
+        transition: scale $transition-spring;
         opacity: 0.3;
     }
 
     &:hover {
         color: var(--theme-nav-secondary)!important;
+        transform: translateY(-2px);
+        box-shadow: var(--theme-box-shadow-hover);
 
         .fa-icon {
             scale: 1.2;
             opacity: 1;
         }
+    }
+
+    &:active {
+        transform: translateY(0) scale(0.94);
     }
 }
 

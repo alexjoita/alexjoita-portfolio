@@ -9,6 +9,8 @@ div.sidebar {
     position: relative;
     display: flex;
     flex-direction: column;
+    box-shadow: var(--theme-box-shadow);
+    transition: width $transition-base, min-width $transition-base;
 
     @include media-breakpoint-down($sidebar-min-breakpoint) {
         display: none;

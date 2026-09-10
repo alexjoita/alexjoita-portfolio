@@ -4,6 +4,13 @@
     height: 100%;
     position: relative;
 
+    @include media-breakpoint-up($sidebar-min-breakpoint) {
+        &:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--theme-box-shadow-hover);
+        }
+    }
+
     .card-body {
         display: flex;
         flex-direction: column;

@@ -3,12 +3,20 @@ button {
     &:focus {
         box-shadow: none!important;
         outline: none!important;
-        transition: none;
     }
 }
 
 .btn {
     border-radius: $standard-border-radius;
+    transition: background-color $transition-base, color $transition-base, transform $transition-fast, box-shadow $transition-base;
+
+    &:not(.disabled):not(:disabled):hover {
+        transform: translateY(-2px);
+    }
+
+    &:not(.disabled):not(:disabled):active {
+        transform: translateY(0);
+    }
 }
 
 .btn-primary {
@@ -49,16 +57,19 @@ button {
     background-color: var(--theme-highlight);
     color: var(--theme-dark);
     border: 0;
+    box-shadow: 0 6px 18px -8px var(--theme-highlight);
 
     &:hover, &:focus, &:active {
         background-color: var(--theme-highlight-2)!important;
         color: var(--theme-dark)!important;
+        box-shadow: 0 10px 24px -8px var(--theme-highlight);
     }
 
     &.disabled {
         background-color: var(--theme-soft-3);
         color: var(--theme-secondary);
         opacity: 0.2;
+        box-shadow: none;
     }
 }
 
@@ -102,6 +113,7 @@ button {
     color: var(--theme-secondary);
     border: 0;
     border-radius: $standard-border-radius;
+    transition: transform $transition-base, box-shadow $transition-base, border-color $transition-base;
 
     &-header, &-footer {
         background-color: transparent;
@@ -124,13 +136,23 @@ button {
     margin-left: 10px;
     min-width: 200px;
     background-color: var(--theme-main);
+    box-shadow: var(--theme-box-shadow-hover);
+    animation: dropdown-pop $transition-fast;
+}
+
+@keyframes dropdown-pop {
+    from { opacity: 0; transform: translateY(-6px) scale(0.98); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
 }
 
 .dropdown-item {
+    transition: background-color $transition-fast;
+
     span.menu-item-label {
         color: var(--theme-secondary);
         font-size: 0.9rem;
         opacity: 0.7!important;
+        transition: color $transition-fast, opacity $transition-fast;
     }
 
     &:focus {

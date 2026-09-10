@@ -94,6 +94,7 @@ $lead-sizes: (
 a {
     text-decoration: none!important;
     color: var(--theme-highlight-2)!important;
+    transition: color $transition-fast, opacity $transition-fast;
     &:hover {
         color: var(--theme-highlight-3)!important;
     }

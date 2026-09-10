@@ -7,6 +7,15 @@
         font-family: $custom-subheadings-font-family;
         border-radius: $standard-border-radius;
         padding: 0.5rem 1rem;
+        transition: background-color $transition-fast, color $transition-fast, transform $transition-fast;
+
+        @include media-breakpoint-up($sidebar-min-breakpoint) {
+            &:hover {
+                background-color: var(--theme-highlight);
+                color: var(--theme-dark);
+                transform: translateY(-2px);
+            }
+        }
 
         &:not(:last-child) {
             margin-right: 5px;

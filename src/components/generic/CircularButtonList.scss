@@ -30,6 +30,7 @@ li.circular-button-list-item {
 
     border-radius: 100%;
     border: 2px solid;
+    transition: background-color $transition-fast, border-color $transition-fast, color $transition-fast, transform $transition-spring, box-shadow $transition-fast;
 
     .fa-icon-wrapper {
         pointer-events: none;
@@ -44,8 +45,10 @@ li.circular-button-list-item {
 
     &:hover {
         background-color: var(--theme-highlight);
-        border-color: var(--theme-soft-3);
+        border-color: var(--theme-highlight);
         color: var(--theme-dark)!important;
+        transform: translateY(-3px) scale(1.08);
+        box-shadow: 0 8px 18px -8px var(--theme-highlight);
     }
 
     --size:1.1rem;

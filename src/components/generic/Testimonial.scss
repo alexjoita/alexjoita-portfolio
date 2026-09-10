@@ -26,6 +26,15 @@
 
         background-color: var(--theme-soft-2);
         border-radius: $standard-border-radius;
+        box-shadow: var(--theme-box-shadow);
+        transition: transform $transition-base, box-shadow $transition-base;
+
+        @include media-breakpoint-up($sidebar-min-breakpoint) {
+            &:hover {
+                transform: translateY(-4px);
+                box-shadow: var(--theme-box-shadow-hover);
+            }
+        }
 
         .triangle {
             position: absolute;

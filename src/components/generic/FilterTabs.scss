@@ -15,7 +15,12 @@
         padding: 0.3rem 2rem;
         opacity: 0.8;
         border-radius: $standard-border-radius;
-        transition: none;
+        transition: background-color $transition-fast, color $transition-fast, opacity $transition-fast;
+
+        &:not(.btn-selected):hover {
+            opacity: 1;
+            background-color: var(--theme-soft-3);
+        }
 
         @include media-breakpoint-down(sm) {
             padding: 0.7rem 0;
