@@ -21,13 +21,13 @@
         "ro": {
             "title": "Competenţe",
             "title_long_prefix": "Explorează",
-            "title_long": " **Competenţele** Mele"
+            "title_long": "**Competenţele** Mele"
         },
 
         "it": {
             "title": "Competenze",
-            "title_long_prefix": "Esplorare",
-            "title_long": "le mie **Competenze**"
+            "title_long_prefix": "Esplora",
+            "title_long": "Le mie **Competenze**"
         }
     },
 
@@ -63,8 +63,8 @@
                             "text": "Pot transforma cele mai bune idei ale tale în realitate!"
                         },
                         "it": {
-                            "title": "Design di **siti web** !",
-                            "text": "Posso dare vita alle tue migliori idee."
+                            "title": "Design di **siti web**",
+                            "text": "Posso dare vita alle tue migliori idee!"
                         }
                     }
                 },
@@ -91,12 +91,12 @@
 
                         "ro": {
                             "title": "Gestionarea **bazelor de date**",
-                            "text": "Pot gestiona eficient datele tale !"
+                            "text": "Pot gestiona eficient datele tale!"
                         },
 
                         "it": {
                             "title": "Gestione del **database**",
-                            "text": "Posso gestire i tuoi dati in modo efficace !"
+                            "text": "Posso gestire i tuoi dati in modo efficace!"
                         }
                       
                     }
@@ -124,12 +124,12 @@
                         
                         "ro": {
                             "title": "Crearea de **aplicaţii**",
-                            "text": "Pot crea aplicaţii creative şi inovative !"
+                            "text": "Pot crea aplicaţii creative şi inovative!"
                         },
 
                         "it": {
                             "title": "Creazione di **app**",
-                            "text": "Posso creare app creative e innovative !"
+                            "text": "Posso creare app creative e innovative!"
                         }
                     }
                 },
@@ -155,12 +155,12 @@
                         
                         "ro": {
                             "title": "**Securitate** Informatică",
-                            "text": "SECURITATE este al doilea meu nume :P !"
+                            "text": "Securitatea este a doua mea natură :)"
                         },
 
                         "it": {
-                            "title": "**Sicurezza** Informatica ",
-                            "text": "La sicurezza è il mio secondo nome !"
+                            "title": "**Sicurezza** Informatica",
+                            "text": "La sicurezza è il mio secondo nome!"
                         }
                     }
                 }
@@ -489,7 +489,11 @@
             "component": "ArticleList",
             "config": {},
             "locales": {
-                "en": {"title": "Photo/Video"}
+                "en": {"title": "Photo/Video"},
+                "es": {"title": "Foto/Video"},
+                "fr": {"title": "Photo/Vidéo"},
+                "ro": {"title": "Foto/Video"},
+                "it": {"title": "Foto/Video"}
             },
 
             "items": [
@@ -586,7 +590,11 @@
                     "component": "ArticleList",
                     "config": {},
                     "locales": {
-                        "en": {"title": "Graphic Design"}
+                        "en": {"title": "Graphic Design"},
+                        "es": {"title": "Diseño Gráfico"},
+                        "fr": {"title": "Design Graphique"},
+                        "ro": {"title": "Design Grafic"},
+                        "it": {"title": "Design Grafico"}
                     },
         
                     "items": [
@@ -693,7 +701,7 @@
                         "fr": {
                             "title": "Roumaine",
                             "info": "Compétences exceptionnelles à l'écrit comme à l'oral. Je peux comprendre et exprimer des idées de grande complexité.",
-                            "tags": ["Native"]
+                            "tags": ["Natif"]
                         },
                         "ro": {
                             "title": "Română",
@@ -806,7 +814,7 @@
                         "fr": {
                             "title": "Italien",
                             "info": "Je peux comprendre aussi bien l'écrit que l'oral et participer activement aux conversations.",
-                            "tags": ["intermédiaire"]
+                            "tags": ["Intermédiaire"]
                         },
                         "ro": {
                             "title": "Italiană",
@@ -841,9 +849,9 @@
                             "tags": ["Principiante"]
                         },
                         "fr": {
-                            "title": "Roumaine",
+                            "title": "Espagnol",
                             "info": "Connaissances de base en espagnol. Je peux tenir des conversations à un niveau de difficulté faible.",
-                            "tags": ["Native"]
+                            "tags": ["Débutant"]
                         },
                         "ro": {
                             "title": "Spaniolă",

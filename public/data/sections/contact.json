@@ -21,13 +21,13 @@
         "it": {
             "title": "Contatto",
             "title_long_prefix": "Non esitate a",
-            "title_long": "**Contattarmi** "
+            "title_long": "**Contattarmi**"
         },
 
         "ro": {
             "title": "Contact",
-            "title_long_prefix": "Nu ezitați să ",
-            "title_long": "mă **contactați** "
+            "title_long_prefix": "Nu ezitați să",
+            "title_long": "mă **contactați**"
         }
 
     },
@@ -41,7 +41,7 @@
                 "en": {"title": "Send me a **message**"},
                 "es": {"title": "Envíame un **mensaje**"},
                 "fr": {"title": "Envoyez-moi un **message**"},
-                "it": {"title": "Inviare un **messaggio**"},
+                "it": {"title": "Inviami un **messaggio**"},
                 "ro": {"title": "Trimite-mi un **mesaj**"}
             },
 
@@ -58,7 +58,7 @@
                 "en": {"title": "Or if you **prefer**..."},
                 "es": {"title": "O si **prefieres**..."},
                 "fr": {"title": "Ou si vous **préférez**..."},
-                "it": {"title": "O se **preferisci**"},
+                "it": {"title": "O se **preferisci**..."},
                 "ro": {"title": "Sau dacă **preferi**..."}
             },
 

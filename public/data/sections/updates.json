@@ -1,7 +1,7 @@
 {
     "locales": {
         "en": {
-            "title": "Updates",
+            "title": "Recent Life",
             "title_menu": "Updates",
             "title_long_prefix": "Take a look at my",
             "title_long": "Recent **Updates**"
@@ -32,8 +32,8 @@
         "it": {
             "title": "Vita recente",
             "title_menu": "Aggiornamenti",
-            "title_long_prefix": "Scopri gli",
-            "title_long": "ultimi "
+            "title_long_prefix": "Scopri i miei",
+            "title_long": "**Ultimi Aggiornamenti**"
         }
     },
 
@@ -66,11 +66,11 @@
                         },
                         "ro": {
                             "title": "03",
-                            "info": "Applicaţii publicate"
+                            "info": "Aplicații publicate"
                         },
                         "it": {
                             "title": "03",
-                            "info": "Applicazioni pubblicati"
+                            "info": "Applicazioni pubblicate"
                         }
                     }
                 },
@@ -96,11 +96,11 @@
 
                         "ro": {
                             "title": "10+",
-                            "info": "Stele primite pe  GitHub"
+                            "info": "Stele primite pe GitHub"
                         },
                         "it": {
                             "title": "10+",
-                            "info": "GitHub stelle"
+                            "info": "Stelle su GitHub"
                         }
                     }
                 },
@@ -235,7 +235,7 @@
                         },
                         "ro": {
                             "title": "**Reconversie Profesională** și am lansat **site-ul** meu **personal**.",
-                            "text": "După 10 ani de muncă fiind ofiţer de poliţie în cadrul Ministerul de Interne din România, am început să activez în domeniul I.T., primele proiecte de freelancing fiind de creare logo."
+                            "text": "După 10 ani de muncă ca ofițer de poliție în cadrul Ministerului Afacerilor Interne din România, am început să activez în domeniul IT, primele proiecte de freelancing fiind cele de creare de logo-uri."
                         },
                         "it": {
                             "title": "**Conversione Professionale** e lanciato il mio **sito web** personale.",
@@ -266,11 +266,11 @@
                             "text": "J'ai lancé ma propre chaîne YouTube où j'ai publié mes premières vidéos de moi pratiquant divers loisirs (danse, voitures, etc.) et plus tard, j'ai ajouté des sketchs drôles, des tutoriels, ainsi que divers tutoriels de conseils et astuces et des photos des endroits où j'ai voyagé et que j'ai appréciés."
                         },
                         "ro": {
-                            "title": "Crearea propriului **canal de YouTube** !",
+                            "title": "Crearea propriului **canal de YouTube**!",
                             "text": "Mi-am lansat propriul canal de YouTube unde am publicat primele video-uri cu mine în timp ce practicam diverse hobby-uri (dans, mașini, etc.) și mai târziu am adăugat sketch-uri amuzante, tutoriale, dar și diverse tutoriale cu tips & tricks și imagini cu locurile prin care am călătorit și care mi-au plăcut."
                         },
                        "it": {
-                            "title": "Ho aperto il mio  **canale YouTube** !",
+                            "title": "Ho aperto il mio **canale YouTube**!",
                             "text": "Ho lanciato il mio canale YouTube dove ho pubblicato i miei primi video in cui praticavo vari hobby (danza, auto, ecc.) e successivamente ho aggiunto sketch divertenti, tutorial, oltre a vari tutorial con consigli e trucchi e immagini dei luoghi che ho visitato e che mi sono piaciuti."
                         }
                     }
@@ -296,7 +296,7 @@
                             "text": "Ayant déjà une petite expérience en freelance en créant des logos, j'ai décidé d'apprendre à créer des sites web aussi, alors j'ai commencé à apprendre le HTML et le CSS. J'ai rapidement migré vers WordPress, avec lequel j'ai créé mes premiers sites web pour des clients."
                         },
                         "ro": {
-                            "title": "Încerc să devin **dezvoltator web***! :)",
+                            "title": "Încerc să devin **dezvoltator web**! :)",
                             "text": "Având deja o mică experiență în freelancing făcând logo-uri, am decis să învăț să fac și website-uri și astfel am început să învăț HTML, CSS. Imediat am migrat către WordPress, cu ajutorul căruia am creat primele website-uri pentru clienți."
                         },
                         "it": {
@@ -327,7 +327,7 @@
                             "text": "Création d'un site web personnel pour présenter mes projets, partager mon parcours en programmation et fournir des ressources pour d'autres développeurs."
                         },
                         "ro": {
-                            "title": "Lansarea **site-ului web personal** !",
+                            "title": "Lansarea **site-ului web personal**!",
                             "text": "Am creat un site personal pentru a arăta proiectele şi pentru a împărtăşi părerile în ceea ce priveşte programarea dar şi pentru a oferi resurse celorlalţi dezvoltatori din branşă."
                         },
                         "it": {

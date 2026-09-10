@@ -21,7 +21,7 @@
         "ro": {
             "title": "Portofoliu",
             "title_long_prefix": "Descoperă",
-            "title_long": "**Portfoliul** Meu "
+            "title_long": "**Portofoliul** Meu"
         },
 
         "it": {
@@ -96,7 +96,7 @@
                         "es": {"singular": "Utilidad", "plural": "Utilidades"},
                         "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
                         "ro": {"singular": "Utilitare", "plural": "Utilitare"},
-                        "it": {"singular": "Utilita", "plural": "Utilita"}
+                        "it": {"singular": "Utilità", "plural": "Utilità"}
                     }
                 }
             ],
@@ -180,27 +180,27 @@
                         "en": {
                             "title": "Real Estate Video",
                             "text": "This video was made using a drone at the request of a real estate client. The footage was captured at an exclusive location, and then the video editing was done in Adobe Premiere Pro.",
-                            "tags": ["Drone", "Adobee Premiere Pro", "Real Estate"]
+                            "tags": ["Drone", "Adobe Premiere Pro", "Real Estate"]
                         },
                         "es": {
                             "title": "Real Estate Video",
                             "text": "Este video fue realizado utilizando un dron a solicitud de un cliente de bienes raíces. La filmación se hizo en una ubicación exclusiva, y luego se realizó la edición del video en Adobe Premiere Pro.",
-                            "tags": ["Drone", "Adobee Premiere Pro", "Real Estate"]
+                            "tags": ["Drone", "Adobe Premiere Pro", "Real Estate"]
                         },
                         "fr": {
                             "title": "Real Estate Video",
                             "text": "Cette vidéo a été réalisée à l'aide d'un drone à la demande d'un client immobilier. Le tournage a eu lieu dans un endroit exclusif, puis le montage vidéo a été effectué dans Adobe Premiere Pro.",
-                            "tags": ["Drone", "Adobee Premiere Pro", "Real Estate"]
+                            "tags": ["Drone", "Adobe Premiere Pro", "Real Estate"]
                         },
                         "ro": {
                             "title": "Real Estate Video",
                             "text": "Acest video a fost realizat folosind o dronă la cererea unui client din domeniul imobiliar. Filmarea a fost realizată într-o locație exclusivistă, iar apoi editarea video a fost făcută în Adobe Premiere Pro.",
-                            "tags": ["Drone", "Adobee Premiere Pro", "Real Estate"]
+                            "tags": ["Drone", "Adobe Premiere Pro", "Real Estate"]
                         },
                         "it": {
                             "title": "Real Estate Video",
                             "text": "Questo video è stato realizzato utilizzando un drone su richiesta di un cliente nel settore immobiliare. Le riprese sono state effettuate in una location esclusiva, successivamente il montaggio video è stato fatto in Adobe Premiere Pro.",
-                            "tags": ["Drone", "Adobee Premiere Pro", "Real Estate"]
+                            "tags": ["Drone", "Adobe Premiere Pro", "Real Estate"]
                         }
                     }
                 },
@@ -249,12 +249,12 @@
                     "locales": {
                         "en": {
                             "title": "Logo / Vectorial Design",
-                            "text": " Logo and branding are essential elements of a company’s identity. <b>A logo </b> is a unique visual symbol that represents the company and its values, often acting as the first point of recognition for customers. Branding, on the other hand, includes the entire visual and emotional identity of a company, including colors, typography, tone of voice, and overall style, all of which work together to create a memorable and consistent image in the minds of consumers.",
+                            "text": "Logo and branding are essential elements of a company's identity. <b>A logo</b> is a unique visual symbol that represents the company and its values, often acting as the first point of recognition for customers. Branding, on the other hand, includes the entire visual and emotional identity of a company, including colors, typography, tone of voice, and overall style, all of which work together to create a memorable and consistent image in the minds of consumers.",
                             "tags": ["Marketing", "Visual Identity", "Communication", "Business", "Branding"]
                         },
                         "es": {
                             "title": "Logo / Vectorial Design",
-                            "text": ": El logotipo y la marca son elementos esenciales de la identidad de una empresa. Un logotipo es un símbolo visual único que representa a la empresa y sus valores, actuando a menudo como el primer punto de reconocimiento para los clientes. La marca, por otro lado, incluye toda la identidad visual y emocional de una empresa, que abarca colores, tipografía, tono de voz y estilo general, todos los cuales trabajan juntos para crear una imagen memorable y coherente en la mente de los consumidores.",
+                            "text": "El logotipo y la marca son elementos esenciales de la identidad de una empresa. Un logotipo es un símbolo visual único que representa a la empresa y sus valores, actuando a menudo como el primer punto de reconocimiento para los clientes. La marca, por otro lado, incluye toda la identidad visual y emocional de una empresa, que abarca colores, tipografía, tono de voz y estilo general, todos los cuales trabajan juntos para crear una imagen memorable y coherente en la mente de los consumidores.",
                             "tags": ["Marketing", "Identidad Visual", "Comunicación","Negocios","Branding"]
                         },
                         "fr": {
@@ -264,12 +264,12 @@
                         },
                         "it": {
                             "title": "Logo / Vectorial Design",
-                            "text": " Il logo e il branding sono elementi essenziali dell'identità di un'azienda. Un logo è un simbolo visivo unico che rappresenta l'azienda e i suoi valori, agendo spesso come il primo punto di riconoscimento per i clienti. Il branding, d'altra parte, comprende l'intera identità visiva ed emotiva di un'azienda, inclusi colori, tipografia, tono di voce e stile generale, tutti elementi che lavorano insieme per creare un'immagine memorabile e coerente nella mente dei consumatori.",
+                            "text": "Il logo e il branding sono elementi essenziali dell'identità di un'azienda. Un logo è un simbolo visivo unico che rappresenta l'azienda e i suoi valori, agendo spesso come il primo punto di riconoscimento per i clienti. Il branding, d'altra parte, comprende l'intera identità visiva ed emotiva di un'azienda, inclusi colori, tipografia, tono di voce e stile generale, tutti elementi che lavorano insieme per creare un'immagine memorabile e coerente nella mente dei consumatori.",
                             "tags": ["Marketing", "Identità Visiva", "Comunicazione","Affari","Branding"]
                         },
                         "ro": {
                             "title": "Logo / Vectorial Design",
-                            "text": " Logo-ul și branding-ul sunt elemente esențiale ale identității unei companii. Un logo este un simbol vizual unic care reprezintă compania și valorile sale, acționând adesea ca primul punct de recunoaștere pentru clienți. Branding-ul, pe de altă parte, include întreaga identitate vizuală și emoțională a unei companii, incluzând culorile, tipografia, tonul vocii și stilul general, toate acestea lucrând împreună pentru a crea o imagine memorabilă și consistentă în mintea consumatorilor.",
+                            "text": "Logo-ul și branding-ul sunt elemente esențiale ale identității unei companii. Un logo este un simbol vizual unic care reprezintă compania și valorile sale, acționând adesea ca primul punct de recunoaștere pentru clienți. Branding-ul, pe de altă parte, include întreaga identitate vizuală și emoțională a unei companii, incluzând culorile, tipografia, tonul vocii și stilul general, toate acestea lucrând împreună pentru a crea o imagine memorabilă și consistentă în mintea consumatorilor.",
                             "tags": ["Marketing", "Identitate Vizuală", "Comunicare","Afaceri","Branding"]
                         }
 
@@ -312,6 +312,11 @@
                         },
                         "it": {
                             "title": "Lago Giallo, RO",
+                            "text": "",
+                            "tags": ["Drone", "Adobe Premiere Pro", "4k"]
+                        },
+                        "ro": {
+                            "title": "Lacul Gălbenu, RO",
                             "text": "",
                             "tags": ["Drone", "Adobe Premiere Pro", "4k"]
                         }
@@ -393,27 +398,27 @@
                         "en": {
                             "title": "alexjoita.com",
                             "text": "This website is a showcase (portfolio) site created using React. It is basically a web application with a minimalist style, combining functionality with design. Do you want a website like this? Contact me! ;)",
-                            "tags": ["React", "Bootstrap","Javascrip"]
+                            "tags": ["React", "Bootstrap","JavaScript"]
                         },
                         "es": {
                             "title": "alexjoita.com",
                             "text": "Este sitio web es un sitio de presentación (portafolio) creado utilizando React. Básicamente, es una aplicación web con un estilo minimalista que combina funcionalidad con diseño. ¿Quieres un sitio como este? ¡Contáctame! ;)",
-                            "tags": ["React", "Bootstrap","Javascrip"]
+                            "tags": ["React", "Bootstrap","JavaScript"]
                         },
                         "fr": {
                             "title": "alexjoita.com",
                             "text": "Ce site web est un site de présentation (portfolio) créé avec React. C'est essentiellement une application web au style minimaliste qui allie fonctionnalité et design. Tu veux un site comme celui-ci ? Contacte-moi ! ;)",
-                            "tags": ["React", "Bootstrap","Javascrip"]
+                            "tags": ["React", "Bootstrap","JavaScript"]
                         },
                         "ro": {
                             "title": "alexjoita.com",
                             "text": "Acest site este un site de prezentare (portofoliu) creat utilizând React. Practic, este o aplicație web cu un stil minimalist care combină funcționalitatea cu designul. Vrei și tu un site ca acesta? Contactează-mă! ;)",
-                            "tags": ["React", "Bootstrap","Javascrip"]
+                            "tags": ["React", "Bootstrap","JavaScript"]
                         },
                         "it": {
                             "title": "alexjoita.com",
                             "text": "Questo sito web è un sito vetrina (portfolio) creato utilizzando React. È fondamentalmente un'applicazione web con uno stile minimalista che unisce funzionalità e design. Vuoi anche tu un sito come questo? Contattami! ;)",
-                            "tags": ["React", "Bootstrap","Javascrip"]
+                            "tags": ["React", "Bootstrap","JavaScript"]
                         }
                     }
                 },
@@ -558,6 +563,11 @@
                             "title": "Giro in Moto",
                             "text": "",
                             "tags": ["Adobe Premiere Pro", "GoPro", "Motorcycle"]
+                        },
+                        "ro": {
+                            "title": "Tur cu motocicleta",
+                            "text": "",
+                            "tags": ["Adobe Premiere Pro", "GoPro", "Motorcycle"]
                         }
                     }
                 },
@@ -610,9 +620,10 @@
                             "title": "Speak-OUT!",
                             "text": "Un sito web di un'azienda che organizza corsi di lingue straniere e fornisce vari servizi nel campo della traduzione e interpretariato.",
                             "tags": ["Wordpress", "Responsive", "SEO"]
-                        },"ro": {
+                        },
+                        "ro": {
                             "title": "Speak-OUT!",
-                            "text": "Un website depre o companie care organizează cursuri de limbi străine şi prestează diferite servicii în zona de traduceri şi translaţii.  ",
+                            "text": "Un website despre o companie care organizează cursuri de limbi străine și oferă diverse servicii în domeniul traducerilor și interpretariatului.",
                             "tags": ["Wordpress", "Responsive", "SEO"]
                         }
                     }

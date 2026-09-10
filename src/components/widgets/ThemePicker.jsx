@@ -14,7 +14,7 @@ function ThemePicker({shrink}) {
         return {
             id: theme.id,
             faIcon: theme.icon,
-            label: getString(theme.id)
+            label: getString('theme_' + theme.id)
         }
     }
 

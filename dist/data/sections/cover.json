@@ -109,7 +109,7 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"text":"<p>Hi, I’m Alex! -  web developer, designer, and photographer with a passion for creating and learning. I’m a self-taught tech enthusiast, constantly expanding my knowledge to stay ahead in the industry.</p><p> I take pride in developing and delivering high-quality products that merge creativity with functionality. </p><p>Let’s build something <b>amazing together!</b>"},
+                        "en": {"text":"<p>Hi, I'm Alex! - web developer, designer, and photographer with a passion for creating and learning. I'm a self-taught tech enthusiast, constantly expanding my knowledge to stay ahead in the industry.</p><p>I take pride in developing and delivering high-quality products that merge creativity with functionality.</p><p>Let's build something <b>amazing together!</b></p>"},
                         "es": {"text": "<p>¡Hola! Soy Alex, desarrollador web, diseñador y fotógrafo, apasionado por la creación y el aprendizaje. Soy autodidacta y un entusiasta de la tecnología, siempre ampliando mis conocimientos para mantenerme a la vanguardia de la industria.</p><p> Me enorgullece desarrollar y entregar productos de alta calidad que combinan creatividad y funcionalidad.</p><p> ¡Construyamos algo <b>increíble juntos!</b></p>"},
                         "fr": {"text": "<p>Bonjour, je suis Alex ! Développeur web, designer et photographe, passionné par la création et l'apprentissage. Autodidacte et passionné de technologie, j'élargis constamment mes connaissances pour rester à la pointe de l'industrie.</p><p>Je suis fier de développer et de livrer des produits de haute qualité qui allient créativité et fonctionnalité.</p><p> Construisons quelque chose <b>d'incroyable ensemble !!</b></p>"},
                         "it": {"text": "<p>Ciao, sono Alex! Sviluppatore web, designer e fotografo, appassionato di creatività e apprendimento. Sono un autodidatta e un entusiasta della tecnologia, sempre impegnato ad ampliare le mie conoscenze per rimanere al passo con il settore.</p><p> Sono orgoglioso di sviluppare e consegnare prodotti di alta qualità che uniscono creatività e funzionalità.</p><p> Costruiamo qualcosa <b>di straordinario insieme!</b></p>"},
@@ -145,23 +145,23 @@
                     "locales": {
                         "en": {
                             "info": "Entrepreneur",
-                            "text": "The web designer truly understood my brand and created a website that perfectly reflects my company's personality. The design is modern, clean, and easy to navigate. I’ve received countless compliments on how professional and user-friendly the site is!"
+                            "text": "Working with this web developer was a true pleasure. He brought my ideas to life in a way that exceeded my expectations. The website isn't just visually stunning - it's also highly functional. I couldn't be happier with the final result!"
                         },
                         "es": {
-                            "info": "Entrepreneur",
-                            "text": "El diseñador web realmente entendió mi marca y creó un sitio web que refleja perfectamente la personalidad de mi empresa. El diseño es moderno, limpio y fácil de navegar. ¡He recibido innumerables cumplidos sobre lo profesional y fácil de usar que es el sitio!"
+                            "info": "Emprendedora",
+                            "text": "Trabajar con este desarrollador web fue un verdadero placer. Dio vida a mis ideas de una manera que superó mis expectativas. El sitio web no solo es visualmente impresionante, sino también muy funcional. ¡No podría estar más feliz con el resultado final!"
                         },
                         "fr": {
-                            "info": "Entrepreneur",
-                            "text": "Le designer web a vraiment compris ma marque et a créé un site web qui reflète parfaitement la personnalité de mon entreprise. Le design est moderne, épuré et facile à naviguer. J'ai reçu d'innombrables compliments sur la professionnalité et la convivialité du site !"
+                            "info": "Entrepreneuse",
+                            "text": "Travailler avec ce développeur web a été un vrai plaisir. Il a donné vie à mes idées d'une manière qui a dépassé mes attentes. Le site n'est pas seulement magnifique visuellement, il est aussi très fonctionnel. Je ne pourrais pas être plus satisfaite du résultat final !"
                         },
                         "ro": {
-                            "info": "Entrepreneur",
+                            "info": "Antreprenoare",
                             "text": "Colaborarea cu acest dezvoltator web a fost o adevărată plăcere. A dat viață ideilor mele într-un mod care a depășit așteptările mele. Site-ul nu este doar vizual uimitor, dar și foarte funcțional. Nu aș putea fi mai fericită cu rezultatul final!"
                         },
                         "it": {
-                            "info": "Entrepreneur",
-                            "text": "Lavorare con questo sviluppatore web è stato un vero piacere. Hanno dato vita alle mie idee in un modo che ha superato le mie aspettative. Il sito web non è solo visivamente straordinario, ma anche molto funzionale. Non potrei essere più felice del risultato finale!"
+                            "info": "Imprenditrice",
+                            "text": "Lavorare con questo sviluppatore web è stato un vero piacere. Ha dato vita alle mie idee in un modo che ha superato le mie aspettative. Il sito web non è solo visivamente straordinario, ma anche molto funzionale. Non potrei essere più felice del risultato finale!"
                         }
                     }
                 },
@@ -279,9 +279,9 @@
             "locales": {
                 "en": {"title": "Personal **interests**"},
                 "es": { "title": "Intereses **personales**" },
-                "fr": { "title": "Intérêts **personnels** " },
-                "ro": { "title": "**Hobby-uri** " },
-                "it": { "title": "Hobby e interessi**" }
+                "fr": { "title": "Intérêts **personnels**" },
+                "ro": { "title": "**Hobby-uri**" },
+                "it": { "title": "**Hobby** e interessi" }
             },
 
             "items": [
@@ -326,7 +326,7 @@
                     "locales": {
                         "en": {
                             "title": "Video/Photo editing",
-                            "info": "Using different tools, even AI, to ediv my videos/photos."
+                            "info": "Using different tools, even AI, to edit my videos/photos."
                         },
                         "es": {
                             "title": "Edición de video/foto",
@@ -338,11 +338,11 @@
                         },
                         "ro": {
                             "title": "Editare foto/video",
-                            "info": " Folosind diverse unelte, chiar și IA, pentru a edita videoclipurile/fotografiile mele."
+                            "info": "Folosind diverse unelte, chiar și IA, pentru a edita videoclipurile/fotografiile mele."
                         },
                         "it": {
                             "title": "Montaggio video/foto",
-                            "info": " Usando diversi strumenti, inclusa l'IA, per modificare i miei video/foto."
+                            "info": "Usando diversi strumenti, inclusa l'IA, per modificare i miei video/foto."
                         }
                     }
                 },
@@ -388,7 +388,7 @@
                     "locales": {
                         "en": {
                             "title": "Archery",
-                            "info": " I enjoy archery (compound) and whenever I have the chance, I go outdoors to train myself."
+                            "info": "I enjoy archery (compound) and whenever I have the chance, I go outdoors to train myself."
                         },
                         "es": {
                             "title": "Tiro con arco",
@@ -422,7 +422,7 @@
                             "info": "I'm passionate about almost anything with an engine :) but especially two-wheeled motorcycles."
                         },
                         "es": {
-                            "title": " Motociclismo",
+                            "title": "Motociclismo",
                             "info": "Me apasiona casi todo lo que tiene motor :) pero especialmente las motocicletas de dos ruedas."
                         },
                         "fr": {
@@ -450,19 +450,19 @@
                     "locales": {
                         "en": {
                             "title": "Photography",
-                            "info": " I love to capture places, events, people. I create memories."
+                            "info": "I love to capture places, events, people. I create memories."
                         },
                         "es": {
-                            "title": "Fotografía ",
+                            "title": "Fotografía",
                             "info": "Me gusta capturar lugares, eventos, personas. Creo recuerdos."
                         },
                         "fr": {
-                            "title": "La photographie ",
+                            "title": "La photographie",
                             "info": "J'aime immortaliser des lieux, des événements, des personnes. Je crée des souvenirs."
                         },
                         "ro": {
                             "title": "Fotografia",
-                            "info": "îmi place să imortalizez locuri, evenimente, oameni. Creez amintiri."
+                            "info": "Îmi place să imortalizez locuri, evenimente, oameni. Creez amintiri."
                         },
                         "it": {
                             "title": "Fotografia",

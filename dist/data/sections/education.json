@@ -20,14 +20,14 @@
        
         "ro": {
             "title": "Educaţie",
-            "title_long_prefix": "Educaţie",
-            "title_long": "**Profesională**"
+            "title_long_prefix": "Acesta este",
+            "title_long": "**Parcursul** meu educațional"
         },
 
         "it": {
             "title": "Istruzione",
-            "title_long_prefix": "Istruzione",
-            "title_long": "Contesto Educativo"
+            "title_long_prefix": "Questo è il mio",
+            "title_long": "**Percorso** Formativo"
         }
     },
 
@@ -153,13 +153,13 @@
                         },
                         "fr": {
                             "title": "**Officier de Police** de l’ONU",
-                            "info": "Université de Paris",
+                            "info": "Ministère des Affaires Intérieures, Roumanie",
                             "text": "J’ai suivi et terminé des cours de l’ONU par le biais du Ministère des Affaires intérieures de Roumanie, devenant ainsi un policier international de l’ONU, ce qui m’a offert la possibilité de participer à des missions de maintien de la paix dans des zones d’intérêt pour l’ONU.",
                             "tags": ["International Law", "Military", "Peace Keeping"]
                         },
                         "it": {
                             "title": "**Ufficiale di Polizia** dell’ONU",
-                            "info": "Université de Paris",
+                            "info": "Ministero degli Affari Interni, Romania",
                             "text": "Ho seguito e completato corsi ONU attraverso il Ministero degli Affari Interni della Romania, diventando così un poliziotto internazionale dell’ONU, il che mi ha dato l’opportunità di partecipare a missioni di mantenimento della pace in aree di interesse per l’ONU.",
                             "tags": ["International Law", "Military", "Peace Keeping"]
                         },
@@ -201,7 +201,7 @@
                         "fr": {
                             "title": "**Officier de Sécurité** Maritime (Navires de Croisière)",
                             "info": "Convention internationale sur les normes de formation des gens de mer, de délivrance des brevets et de veille (STCW)",
-                            "text": "<p>J’ai terminé le cours en obtenant des certificats en:</p><ul><li>techniques de survie</li><li>sécurité des passagers et formation à la sécurité du personnel</li><li>prévention et lutte contre les incendies</li><li>premiers secours élémentaires</li><li>sécurité personnelle et responsabilités sociales</li><li>l’utilisation de la force par des moyens physiques et mécaniques</li><li>gestion des foules</li></ul> <p class='mt-3'>All of these have allowed me to perform my duties as a security officer on cruise ships, thus giving me the opportunity to travel extensively and work on some of the largest and most beautiful cruise ships in the world.</p>",
+                            "text": "<p>J’ai terminé le cours en obtenant des certificats en:</p><ul><li>techniques de survie</li><li>sécurité des passagers et formation à la sécurité du personnel</li><li>prévention et lutte contre les incendies</li><li>premiers secours élémentaires</li><li>sécurité personnelle et responsabilités sociales</li><li>l’utilisation de la force par des moyens physiques et mécaniques</li><li>gestion des foules</li></ul> <p class='mt-3'>Tout cela m’a permis d’exercer mes fonctions d’officier de sécurité sur des navires de croisière, me donnant ainsi l’occasion de beaucoup voyager et de travailler sur certains des plus grands et des plus beaux navires de croisière au monde.</p>",
                             "tags": ["Maritime Security", "Safety", "International Law", "CruiseShips"]
                         },
                         "ro": {
