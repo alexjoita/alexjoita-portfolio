@@ -18,9 +18,9 @@
         max-height: inherit;
         padding: 0;
         /** On mobile the page scrolls natively (not this flex box), so it must
-         * not be a clipped/hidden overflow container - otherwise descendants
-         * using position: sticky (e.g. NavSectionTabs) would stick relative to
-         * this element instead of the real page scroll and never appear to move. **/
+         * not be a clipped/hidden overflow container - otherwise any sticky-
+         * positioned descendant would stick relative to this element instead
+         * of the real page scroll and never appear to move. **/
         overflow: visible;
     }
 }

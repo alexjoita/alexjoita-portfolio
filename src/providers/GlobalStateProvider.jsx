@@ -7,7 +7,7 @@ const GlobalStateContext = createContext(null)
 export const useGlobalState = () => useContext(GlobalStateContext)
 
 export const GlobalStateProvider = ({children}) => {
-    const {getSections, getCategories, getCategorySections} = useData()
+    const {getSections} = useData()
     const {showActivitySpinner, hideActivitySpinner} = useFeedbacks()
     const scheduler = useScheduler()
 
@@ -15,7 +15,6 @@ export const GlobalStateProvider = ({children}) => {
     const [didRenderFirstSection, setDidRenderFirstSection] = useState(false)
 
     const sections = getSections()
-    const categories = getCategories()
 
     /** Loaded everything **/
     useEffect(() => {
@@ -80,11 +79,6 @@ export const GlobalStateProvider = ({children}) => {
         setActiveSectionId(section.id)
 
         hideActivitySpinner('section-changing')
-
-        if(section.category) {
-            window.visitHistory = window.visitHistory || []
-            window.visitHistory[section.category.id] = section.id
-        }
     }
 
     const getActiveSection = () => {
@@ -98,46 +92,12 @@ export const GlobalStateProvider = ({children}) => {
         return activeSectionId === sectionId
     }
 
-    const setActiveSectionFromCategory = (categoryId) => {
-        if(isCategoryActive(categoryId))
-            return
-
-        const category = categories.find(category => category.id === categoryId)
-        const sections = getCategorySections(category)
-
-        if(!category || !sections || sections.length === 0)
-            return
-
-        const targetSectionId = window.visitHistory && window.visitHistory[categoryId] ?
-            window.visitHistory[categoryId] :
-            sections[0].id
-
-        setActiveSection(targetSectionId)
-    }
-
-    const isCategoryActive = (categoryId) => {
-        const displayingSection = getActiveSection()
-        if(!displayingSection || !displayingSection.category)
-            return false
-        return displayingSection.category.id === categoryId
-    }
-
-    const getActiveCategory = () => {
-        const section = getActiveSection()
-        if(!section)
-            return null
-        return section.category
-    }
-
     return (
         <GlobalStateContext.Provider value={{
             activeSectionId,
             setActiveSection,
             getActiveSection,
             isSectionActive,
-            setActiveSectionFromCategory,
-            isCategoryActive,
-            getActiveCategory,
             didRenderFirstSection,
             setDidRenderFirstSection
         }}>

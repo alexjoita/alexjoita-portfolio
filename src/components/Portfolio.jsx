@@ -4,7 +4,6 @@ import NavSidebar from "/src/components/nav/desktop/NavSidebar.jsx"
 import MainSlider from "/src/components/layout/MainSlider"
 import NavHeaderMobile from "/src/components/nav/mobile/NavHeaderMobile.jsx"
 import NavTabController from "/src/components/nav/mobile/NavTabController.jsx"
-import NavSectionTabs from "/src/components/nav/mobile/NavSectionTabs.jsx"
 import {useGlobalState} from "/src/providers/GlobalStateProvider.jsx"
 import {useUtils} from "/src/helpers/utils.js"
 
@@ -45,7 +44,6 @@ function Portfolio() {
                 <div className={`content-wrapper`}>
                     <div className={`content`}>
                         <NavHeaderMobile/>
-                        <NavSectionTabs/>
                         <MainSlider/>
                     </div>
                 </div>

@@ -7,20 +7,36 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 2px;
     padding: 5px;
 
+    position: relative;
     border-radius: calc($standard-border-radius + 4px);
     background: var(--theme-glass-bg);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    box-shadow: var(--theme-box-shadow);
-    border: 1px solid var(--theme-glass-border);
+    backdrop-filter: blur(24px) saturate(180%);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    box-shadow: var(--theme-box-shadow), inset 0 1px 0 var(--theme-glass-border), inset 0 0 0 1px var(--theme-glass-border);
+
+    /** Fade the edges a touch so a scrollable bar with more tabs off-screen
+     * reads as scrollable at a glance, instead of looking cut off. **/
+    mask-image: linear-gradient(to right, transparent 0, black 14px, black calc(100% - 14px), transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0, black 14px, black calc(100% - 14px), transparent 100%);
 
     @include media-breakpoint-up($sidebar-min-breakpoint) {
         display: none;
     }
+}
+
+.nav-tab-controller-scroll {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar { display: none; }
 }
 
 .nav-tab-controller-with-offset {
@@ -31,14 +47,16 @@
 /** Default Button **/
 button.nav-tab-btn {
     display: flex;
-    flex-grow: 1;
+    flex: 0 0 auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 3px;
 
     height: calc($nav-tabs-height - 10px);
-    width: 0;
+    min-width: 64px;
+    padding: 0 10px;
+    scroll-snap-align: center;
 
     border: 0;
     border-radius: calc($standard-border-radius - 4px);
@@ -54,6 +72,7 @@ button.nav-tab-btn {
         text-transform: uppercase;
         opacity: 0.35;
         transition: opacity $transition-fast;
+        white-space: nowrap;
 
         @include media-breakpoint-down(sm) {
             font-size: 0.575rem;
