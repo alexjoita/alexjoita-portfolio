@@ -1,0 +1,23 @@
+@import "/src/styles/extend";
+
+.nav-section-tabs-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: $z-index-nav-tabs;
+    margin: 0 5px 10px;
+    padding-top: 8px;
+
+    background: var(--theme-glass-bg);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+
+    @include media-breakpoint-up($sidebar-min-breakpoint) {
+        display: none;
+    }
+
+    .nav-pills {
+        border-radius: $standard-border-radius;
+        overflow: hidden;
+        box-shadow: var(--theme-box-shadow);
+    }
+}

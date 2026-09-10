@@ -3,18 +3,21 @@
 .nav-pills {
     width: 100%;
     display: flex;
+    padding: 4px;
+    gap: 4px;
 }
 
 /** Default Pill **/
 .nav-pill {
-    height: 45px;
+    height: 42px;
     width: 100%;
 
     border: 0;
-    border-top: 3px solid rgba($secondary, 0.05);
+    border-radius: calc($standard-border-radius - 6px);
 
-    background-color: var(--theme-nav-background-disabled);
+    background-color: transparent;
     color: var(--theme-nav-secondary);
+    transition: background-color $transition-fast, color $transition-fast, transform $transition-fast;
 
     span {
         margin-left: 10px;
@@ -27,13 +30,15 @@
     }
 
     span, .fa-icon {
-        opacity: 0.25;
+        opacity: 0.45;
+        transition: opacity $transition-fast;
     }
 }
 
 /** Hovered Pill **/
 .nav-pill {
     &:hover {
+        background-color: var(--theme-nav-light);
         color: var(--theme-highlight);
         span, .fa-icon {
             opacity: 1;
@@ -45,7 +50,7 @@
 .nav-pill-active {
     background-color: var(--theme-nav-selected)!important;
     color: var(--theme-nav-highlight)!important;
-    border-top-color: var(--theme-highlight)!important;
+    box-shadow: 0 4px 14px -6px rgba(0, 0, 0, 0.4);
 
     span, .fa-icon {
         opacity: 1!important;

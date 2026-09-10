@@ -14,7 +14,7 @@
     height: calc(100svh - $layout-blocks-spacing*2 - 2.5rem);
 
     @include media-breakpoint-down($sidebar-min-breakpoint) {
-        margin: var(--margin-y-mobile) var(--margin-x-mobile) calc($nav-tabs-height) var(--margin-x-mobile);
+        margin: var(--margin-y-mobile) var(--margin-x-mobile) calc($nav-tabs-height + $nav-tabs-floating-margin) var(--margin-x-mobile);
         height: auto;
         min-height: 70vh;
     }

@@ -1,12 +1,22 @@
 @import "/src/styles/extend";
 
 .nav-tab-controller {
-    width: 100vw;
+    width: calc(100vw - #{$nav-tabs-floating-margin} * 2);
+    margin: 0 $nav-tabs-floating-margin $nav-tabs-floating-margin;
     min-height: $nav-tabs-height;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 2px;
+    padding: 5px;
+
+    border-radius: calc($standard-border-radius + 4px);
+    background: var(--theme-glass-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: var(--theme-box-shadow);
+    border: 1px solid var(--theme-glass-border);
 
     @include media-breakpoint-up($sidebar-min-breakpoint) {
         display: none;
@@ -15,11 +25,7 @@
 
 .nav-tab-controller-with-offset {
     min-height: calc($nav-tabs-height + $nav-tabs-chrome-offset);
-
-    button.nav-tab-btn  {
-        min-height: calc($nav-tabs-height + $nav-tabs-chrome-offset);
-        padding-bottom: $nav-tabs-chrome-offset;
-    }
+    padding-bottom: calc(5px + $nav-tabs-chrome-offset);
 }
 
 /** Default Button **/
@@ -28,25 +34,26 @@ button.nav-tab-btn {
     flex-grow: 1;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 3px;
 
-    padding-top: 5px;
+    height: calc($nav-tabs-height - 10px);
     width: 0;
-    min-height: $nav-tabs-height;
 
     border: 0;
-    border-top: 3px solid;
+    border-radius: calc($standard-border-radius - 4px);
 
-    background-color: var(--theme-nav-background-disabled);
+    background-color: transparent;
     color: var(--theme-nav-secondary);
-    border-top-color: var(--theme-nav-light);
+    transition: background-color $transition-fast, color $transition-fast, transform $transition-fast;
 
     span {
         font-size: 0.6rem;
         font-family: $custom-subheadings-font-family;
         font-weight: bold;
         text-transform: uppercase;
-        opacity: 0.25;
+        opacity: 0.35;
+        transition: opacity $transition-fast;
 
         @include media-breakpoint-down(sm) {
             font-size: 0.575rem;
@@ -55,36 +62,40 @@ button.nav-tab-btn {
 
     .fa-icon {
         font-size: 1rem;
-        opacity: 0.35;
-        transition: scale 0.1s ease-out;
+        opacity: 0.45;
+        transition: opacity $transition-fast, transform $transition-spring;
         @include media-breakpoint-down(sm) {
             font-size: 0.9rem;
         }
     }
 }
 
-/** Hover Button **/
+/** Hover / Active Button **/
 button.nav-tab-btn {
     &:hover {
         color: var(--theme-highlight);
         .fa-icon {
             opacity: 1;
+            transform: translateY(-1px);
         }
 
         span {
             opacity: 1;
         }
     }
+
+    &:active {
+        transform: scale(0.94);
+    }
 }
 
-/** Active Button **/
 button.nav-tab-btn-active {
     background-color: var(--theme-nav-selected)!important;
     color: var(--theme-nav-highlight)!important;
-    border-top-color: var(--theme-highlight-2)!important;
 
     .fa-icon {
         opacity: 1!important;
+        transform: translateY(-2px) scale(1.08);
     }
 
     span {

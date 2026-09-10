@@ -21,8 +21,6 @@ const utils = useUtils()
 const scheduler = useScheduler()
 
 export const WindowProvider = ({children}) => {
-    const [scrollX, setScrollX] = useState(0)
-    const [scrollY, setScrollY] = useState(0)
     const [innerWidth, setInnerWidth] = useState(window.innerWidth)
     const [innerHeight, setInnerHeight] = useState(window.innerHeight)
     const [currentTimeSpan, setCurrentTimeSpan] = useState(0)
@@ -37,10 +35,8 @@ export const WindowProvider = ({children}) => {
     }, [])
 
     const _createListeners = () => {
-        window.addEventListener('scroll', _onScroll)
         window.addEventListener('resize', _onResize)
         window.addEventListener('keydown', _onKeyDown)
-        _onScroll()
         _onResize()
 
         scheduler.clearAllWithTag('window-provider')
@@ -52,16 +48,10 @@ export const WindowProvider = ({children}) => {
     }
 
     const _destroyListeners = () => {
-        window.removeEventListener('scroll', _onScroll)
         window.removeEventListener('resize', _onResize)
         window.removeEventListener('keydown', _onKeyDown)
         scheduler.clearAllWithTag('window-provider')
         setDidCreateListeners(false)
-    }
-
-    const _onScroll = () => {
-        setScrollX(window.scrollX)
-        setScrollY(window.scrollY)
     }
 
     const _onResize = () => {
@@ -115,8 +105,6 @@ export const WindowProvider = ({children}) => {
 
     return (
         <WindowContext.Provider value={{
-            scrollX,
-            scrollY,
             innerWidth,
             innerHeight,
             currentTimeSpan,

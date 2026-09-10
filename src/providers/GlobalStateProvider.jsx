@@ -12,7 +12,6 @@ export const GlobalStateProvider = ({children}) => {
     const scheduler = useScheduler()
 
     const [activeSectionId, setActiveSectionId] = useState(null)
-    const [fixedNavigationEnabled, setFixedNavigationEnabled] = useState(true)
     const [didRenderFirstSection, setDidRenderFirstSection] = useState(false)
 
     const sections = getSections()
@@ -139,8 +138,6 @@ export const GlobalStateProvider = ({children}) => {
             setActiveSectionFromCategory,
             isCategoryActive,
             getActiveCategory,
-            fixedNavigationEnabled,
-            setFixedNavigationEnabled,
             didRenderFirstSection,
             setDidRenderFirstSection
         }}>

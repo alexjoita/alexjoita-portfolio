@@ -20,9 +20,15 @@ $sidebar-width: 280px;
 $sidebar-shrink-width: 120px;
 $nav-tabs-height: 55px;
 $nav-tabs-chrome-offset: 20px;
-$standard-border-radius: 10px;
+$nav-tabs-floating-margin: 10px;
+$standard-border-radius: 14px;
 $layout-blocks-spacing: 0.5rem;
 $sidebar-min-breakpoint: md;
+
+/** ----------- MOTION ----------- **/
+$transition-fast: 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+$transition-base: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+$transition-spring: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 
 /** ----------- COLORS ----------- **/
 
@@ -70,7 +76,10 @@ $loader-background-color: #111111;
     --theme-section-background: #1a1a1aa6;
     --theme-section-background-opacity: rgba(26, 26, 26, 0.86);
     --theme-tag-color: #181818;
-    --theme-box-shadow: none;
+    --theme-box-shadow: 0 10px 30px -14px rgba(0, 0, 0, 0.6);
+    --theme-box-shadow-hover: 0 18px 40px -14px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 174, 0, 0.12);
+    --theme-glass-bg: rgba(20, 20, 20, 0.55);
+    --theme-glass-border: rgba(255, 255, 255, 0.07);
 
     --theme-nav-background: #1a1a1a79;
     --theme-nav-background-disabled: #181818;
@@ -116,7 +125,10 @@ $loader-background-color: #111111;
     --theme-section-background: #caecd5;
     --theme-section-background-opacity: rgba(202, 236, 213, 0.9);
     --theme-tag-color: #b1ccbd;
-    --theme-box-shadow: none;
+    --theme-box-shadow: 0 10px 26px -14px rgba(31, 61, 45, 0.35);
+    --theme-box-shadow-hover: 0 18px 34px -14px rgba(31, 61, 45, 0.45), 0 0 0 1px rgba(38, 147, 102, 0.15);
+    --theme-glass-bg: rgba(202, 236, 213, 0.6);
+    --theme-glass-border: rgba(255, 255, 255, 0.5);
 
     --theme-nav-background: #caecd5;
     --theme-nav-background-disabled: #c5e6d0;

@@ -82,28 +82,6 @@ export const useUtils = () => {
         return prefix + new Date().getTime() + '-r-' + Math.random().toFixed(3).replace('.', '')
     }
 
-    /**
-     * @param {HTMLElement} element
-     * @param {number} [offset=0]
-     * @return {boolean}
-     */
-    const isElementOutsideBounds = (element, offset) => {
-        offset = offset || 0
-        if(!element)
-            return true
-
-        const rect = element.getBoundingClientRect()
-        if(!rect)
-            return true
-
-        return (
-            rect.bottom + offset < 0 ||
-            rect.right + offset < 0 ||
-            rect.left - offset > window.innerWidth ||
-            rect.top - offset > window.innerHeight
-        )
-    }
-
     /** @return {boolean} **/
     const isAndroid = () => {
         const userAgent = window.navigator.userAgent.toLowerCase();
@@ -287,7 +265,6 @@ export const useUtils = () => {
         resolvePath,
         strIf,
         randomTag,
-        isElementOutsideBounds,
         isAndroid,
         isIOS,
         isIPad,
