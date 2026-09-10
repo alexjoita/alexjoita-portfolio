@@ -1,9 +1,7 @@
 
-# [<img src="readme-assets/logo.png"> Alex Joita](https://alexjoita.com/) — Portfolio
+# [Alex Joita](https://alexjoita.com/) — Portfolio
 
 Personal portfolio site of **Alex Joita**, Web Developer — built with **React** and **Bootstrap 5**.
-
-![alt tag1](readme-assets/promo.png)
 
 Key features:
 - Lightweight and fully responsive.
@@ -17,21 +15,6 @@ Key features:
 ## [Live Site](https://alexjoita.com/)
 
 The portfolio is live at **[alexjoita.com](https://alexjoita.com/)**.
-
-### 1. Base layout
-The layout uses a fixed central view with a left sidebar, adjusting perfectly across various monitor resolutions, from 4:3 to ultra-wide.
-
-![alt tag1](readme-assets/demo.png)
-
-### 2. Desktop
-The main view transitions smoothly when a new page is selected from the sidebar, giving a page-flipping effect. The sidebar is also toggleable, allowing the content area to expand for a larger viewing space.
-
-![alt tag1](readme-assets/desktop.png)
-
-### 3. Mobile
-On mobile, the layout groups the portfolio sections into categories and transforms into a tabbed interface with a bottom navigation.
-
-![alt tag1](readme-assets/mobile.png)
 
 ## Local development
 
