@@ -111,12 +111,13 @@
                     },
 
                     "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/alexjoita/QR-Generator"},
-                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"}
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/alexjoita/qrcode_generator"},
+                        {"faIcon": "fa-solid fa-arrow-pointer", "href": "https://alexjoita.com/qr_generator.html"}
+                      
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=32XsfeIX_rM",
+                        
                         "screenshots": {
                             "aspectRatio": "9:16",
                             "images": ["images/pictures/project-python1.png",
@@ -413,6 +414,54 @@
                             "title": "alexjoita.com",
                             "text": "Questo sito web è un sito vetrina (portfolio) creato utilizzando React. È fondamentalmente un'applicazione web con uno stile minimalista che unisce funzionalità e design. Vuoi anche tu un sito come questo? Contattami! ;)",
                             "tags": ["React", "Bootstrap","Javascrip"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/photo.alexjoita.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://photo.alexjoita.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": [ ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "photo.alexjoita.com",
+                            "text": "This website is a portfolio for a photographer. It is developed using Node.JS technology through Nuxt.js. It has an interactive gallery, the whole site is fully customizable and SEO ready. ;)",
+                            "tags": ["Node.JS", "NUXT.JS","SEO"]
+                        },
+                        "es": {
+                            "title": "photo.alexjoita.com",
+                            "text": "Este sitio web es un portafolio para un fotógrafo. Está desarrollado con tecnología Node.JS a través de Nuxt.js. Cuenta con una galería interactiva, es totalmente personalizable y está optimizado para SEO.",
+                            "tags": ["Node.JS", "NUXT.JS","SEO"]
+                        },
+                        "fr": {
+                            "title": "photo.alexjoita.com",
+                            "text": "Ce site web est un portfolio pour un photographe. Il est développé avec la technologie Node.js via Nuxt.js. Il comprend une galerie interactive, est entièrement personnalisable et optimisé pour le référencement naturel (SEO).",
+                            "tags": ["Node.JS", "NUXT.JS","SEO"]
+                        },
+                        "ro": {
+                            "title": "photo.alexjoita.com",
+                            "text": "Acest site web este un portofoliu pentru un fotograf. Este dezvoltat folosind tehnologia Node.JS prin Nuxt.js. Are o galerie interactivă, întregul site este complet personalizabil și pregătit pentru SEO.",
+                            "tags": ["Node.JS", "NUXT.JS","SEO"]
+                        },
+                        "it": {
+                            "title": "photo.alexjoita.com",
+                            "text": "Questo sito web è un portfolio per un fotografo. È sviluppato utilizzando la tecnologia Node.JS tramite Nuxt.js. Include una galleria interattiva, è completamente personalizzabile e ottimizzato per la SEO.",
+                            "tags": ["Node.JS", "NUXT.JS","SEO"]
                         }
                     }
                 },

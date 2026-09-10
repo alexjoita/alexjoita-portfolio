@@ -38,7 +38,9 @@ function ImageView({className, src, alt}) {
                  onLoad={_onImageLoaded}
                  onError={_onImageError}
                  className={`image ${loadStatus === LoadStatus.LOADING ? `invisible position-absolute` : ``}`}
-                 alt={alt}/>
+                 alt={alt}
+                 loading={`lazy`}
+                 decoding={`async`}/>
             )}
         </div>
     )
